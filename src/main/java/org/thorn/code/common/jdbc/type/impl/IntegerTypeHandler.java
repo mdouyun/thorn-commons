@@ -24,7 +24,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 /**
- * TODO.
+ * Integer类型处理器.
  *
  * @author chenyun.chris
  * @since 1.0

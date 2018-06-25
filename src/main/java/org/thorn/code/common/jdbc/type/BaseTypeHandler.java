@@ -21,7 +21,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 /**
- * TODO.
+ * 封装了通用的类型处理功能，不同的类型实现抽象方法即可.
  *
  * @author chenyun.chris
  * @since 1.0

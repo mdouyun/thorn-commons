@@ -69,4 +69,15 @@ public class PrimaryKey {
     public void setSql(String sql) {
         this.sql = sql;
     }
+
+    @Override
+    public String toString() {
+        final StringBuilder sb = new StringBuilder("PrimaryKey{");
+        sb.append("pk='").append(pk).append('\'');
+        sb.append(", name='").append(name).append('\'');
+        sb.append(", policy=").append(policy);
+        sb.append(", sql='").append(sql).append('\'');
+        sb.append('}');
+        return sb.toString();
+    }
 }

@@ -26,7 +26,7 @@ import java.sql.Timestamp;
 import java.util.Date;
 
 /**
- * TODO.
+ * Date类型处理器.
  *
  * @author chenyun.chris
  * @since 1.0
