@@ -21,15 +21,15 @@ import java.lang.annotation.*;
  * 字段校验注解，规则名称为约束类的类名小写形式.
  * eg:@validate({"email","min(2)"}).
  *
- * @see org.thorn.code.commons.validator.constraint.Email
- * @see org.thorn.code.commons.validator.constraint.Past
- * @see org.thorn.code.commons.validator.constraint.Future
- * @see org.thorn.code.commons.validator.constraint.Length
- * @see org.thorn.code.commons.validator.constraint.Max
- * @see org.thorn.code.commons.validator.constraint.Min
- * @see org.thorn.code.commons.validator.constraint.NotEmpty
- * @see org.thorn.code.commons.validator.constraint.NotNull
- * @see org.thorn.code.commons.validator.constraint.Pattern
+ * @see org.thorn.code.common.validator.constraint.Email
+ * @see org.thorn.code.common.validator.constraint.Past
+ * @see org.thorn.code.common.validator.constraint.Future
+ * @see org.thorn.code.common.validator.constraint.Length
+ * @see org.thorn.code.common.validator.constraint.Max
+ * @see org.thorn.code.common.validator.constraint.Min
+ * @see org.thorn.code.common.validator.constraint.NotEmpty
+ * @see org.thorn.code.common.validator.constraint.NotNull
+ * @see org.thorn.code.common.validator.constraint.Pattern
  *
  * @author chenyun.chris
  * @since 2018.05.08

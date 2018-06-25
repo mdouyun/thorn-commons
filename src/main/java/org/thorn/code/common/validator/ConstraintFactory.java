@@ -17,7 +17,7 @@ package org.thorn.code.common.validator;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.thorn.code.commons.validator.constraint.*;
+import org.thorn.code.common.validator.constraint.*;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
