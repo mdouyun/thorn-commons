@@ -17,7 +17,7 @@
 package org.thorn.code.common.jdbc.type.impl;
 
 import org.thorn.code.common.jdbc.type.BaseTypeHandler;
-import org.thorn.code.common.jdbc.type.JdbcType;
+import org.thorn.code.common.jdbc.type.JDBCType;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -33,8 +33,8 @@ import java.util.Date;
  */
 public class DateTypeHandler extends BaseTypeHandler<Date> {
     @Override
-    public int getJdbcType() {
-        return JdbcType.TIMESTAMP.TYPE_CODE;
+    public int getJDBCType() {
+        return JDBCType.TIMESTAMP.TYPE_CODE;
     }
 
     @Override

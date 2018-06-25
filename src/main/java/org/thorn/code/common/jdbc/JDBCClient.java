@@ -28,7 +28,7 @@ import java.util.TreeMap;
  * @author chenyun.chris
  * @since 1.0
  */
-public interface JdbcClient {
+public interface JDBCClient {
 
     int insert(Object o) throws SQLException;
 

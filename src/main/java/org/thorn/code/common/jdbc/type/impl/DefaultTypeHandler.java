@@ -26,7 +26,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * TODO.
+ * TypeHandler的包装类.
  *
  * @author chenyun.chris
  * @since 1.0

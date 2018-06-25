@@ -17,7 +17,7 @@
 package org.thorn.code.common.jdbc.defaults;
 
 import org.thorn.code.common.jdbc.ConfigCastException;
-import org.thorn.code.common.jdbc.JdbcClient;
+import org.thorn.code.common.jdbc.JDBCClient;
 import org.thorn.code.common.jdbc.SqlBuilder;
 import org.thorn.code.common.jdbc.model.MappingModel;
 import org.thorn.code.common.jdbc.model.PKGeneratePolicy;
@@ -37,7 +37,7 @@ import java.util.*;
  * @author chenyun.chris
  * @since 1.0
  */
-public class DefaultJdbcClient implements JdbcClient {
+public class DefaultJDBCClient implements JDBCClient {
 
     private DataSource dataSource;
 

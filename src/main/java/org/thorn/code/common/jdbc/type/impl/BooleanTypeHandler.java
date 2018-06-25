@@ -18,7 +18,7 @@ package org.thorn.code.common.jdbc.type.impl;
 
 import org.apache.commons.lang3.StringUtils;
 import org.thorn.code.common.jdbc.type.BaseTypeHandler;
-import org.thorn.code.common.jdbc.type.JdbcType;
+import org.thorn.code.common.jdbc.type.JDBCType;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -37,8 +37,8 @@ public class BooleanTypeHandler extends BaseTypeHandler<Boolean> {
     private static final String FALSE = "N";
 
     @Override
-    public int getJdbcType() {
-        return JdbcType.CHAR.TYPE_CODE;
+    public int getJDBCType() {
+        return JDBCType.CHAR.TYPE_CODE;
     }
 
     @Override

@@ -17,7 +17,7 @@
 package org.thorn.code.common.jdbc.type.impl;
 
 import org.thorn.code.common.jdbc.type.BaseTypeHandler;
-import org.thorn.code.common.jdbc.type.JdbcType;
+import org.thorn.code.common.jdbc.type.JDBCType;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -32,8 +32,8 @@ import java.sql.SQLException;
 public class IntegerTypeHandler extends BaseTypeHandler<Integer> {
 
     @Override
-    public int getJdbcType() {
-        return JdbcType.INTEGER.TYPE_CODE;
+    public int getJDBCType() {
+        return JDBCType.INTEGER.TYPE_CODE;
     }
 
     @Override

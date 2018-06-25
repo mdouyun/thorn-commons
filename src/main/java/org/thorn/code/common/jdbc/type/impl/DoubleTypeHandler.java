@@ -17,7 +17,7 @@
 package org.thorn.code.common.jdbc.type.impl;
 
 import org.thorn.code.common.jdbc.type.BaseTypeHandler;
-import org.thorn.code.common.jdbc.type.JdbcType;
+import org.thorn.code.common.jdbc.type.JDBCType;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -31,8 +31,8 @@ import java.sql.SQLException;
  */
 public class DoubleTypeHandler extends BaseTypeHandler<Double> {
     @Override
-    public int getJdbcType() {
-        return JdbcType.DOUBLE.TYPE_CODE;
+    public int getJDBCType() {
+        return JDBCType.DOUBLE.TYPE_CODE;
     }
 
     @Override

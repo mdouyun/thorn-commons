@@ -26,7 +26,7 @@ import java.util.Map;
  * @author chenyun.chris
  * @since 1.0
  */
-public enum JdbcType {
+public enum JDBCType {
 
     /*
      * This is added to enable basic support for the
@@ -65,19 +65,19 @@ public enum JdbcType {
     STRUCT(Types.STRUCT);
 
     public final int TYPE_CODE;
-    private static Map<Integer, JdbcType> codeLookup = new HashMap<Integer, JdbcType>();
+    private static Map<Integer, JDBCType> codeLookup = new HashMap<Integer, JDBCType>();
 
     static {
-        for (JdbcType type : JdbcType.values()) {
+        for (JDBCType type : JDBCType.values()) {
             codeLookup.put(type.TYPE_CODE, type);
         }
     }
 
-    JdbcType(int code) {
+    JDBCType(int code) {
         this.TYPE_CODE = code;
     }
 
-    public static JdbcType forCode(int code) {
+    public static JDBCType forCode(int code) {
         return codeLookup.get(code);
     }
 

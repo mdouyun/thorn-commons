@@ -32,7 +32,7 @@ public abstract class BaseTypeHandler<T> implements TypeHandler<T> {
     public void setParameter(PreparedStatement ps, int i, T parameter) throws SQLException {
 
         if(parameter == null) {
-            ps.setNull(i, getJdbcType());
+            ps.setNull(i, getJDBCType());
         } else {
             setNonNullParameter(ps, i, parameter);
         }
@@ -58,7 +58,7 @@ public abstract class BaseTypeHandler<T> implements TypeHandler<T> {
         }
     }
 
-    public abstract int getJdbcType();
+    public abstract int getJDBCType();
 
     public abstract void setNonNullParameter(PreparedStatement ps, int i, T parameter) throws SQLException;
 
