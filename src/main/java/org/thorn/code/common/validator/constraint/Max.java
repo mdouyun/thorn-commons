@@ -19,7 +19,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.thorn.code.common.validator.Constraint;
-import org.thorn.code.common.validator.ValidationException;
+import org.thorn.code.common.exception.ValidationException;
 
 import java.math.BigDecimal;
 

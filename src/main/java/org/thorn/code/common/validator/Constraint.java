@@ -15,6 +15,8 @@
  */
 package org.thorn.code.common.validator;
 
+import org.thorn.code.common.exception.ValidationException;
+
 /**
  * 数据校验规则约束接口，自定义约束类建议继承{@link BaseConstraintDefinition}类.
  *

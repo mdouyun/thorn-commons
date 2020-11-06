@@ -14,7 +14,9 @@
  * limitations under the License.
  */
 
-package org.thorn.code.common.validator;
+package org.thorn.code.common.exception;
+
+import org.thorn.code.common.constans.ResponseCode;
 
 /**
  * 校验异常类，具体约束类校验不通过则抛出异常.
@@ -22,13 +24,25 @@ package org.thorn.code.common.validator;
  * @author chenyun.chris
  * @since 2018.05.09
  */
-public class ValidationException extends Exception {
+public class ValidationException extends BizException {
 
-    /**
-     *
-     * @param message 错误提示消息，由约束类生成
-     */
     public ValidationException(String message) {
-        super(message);
+        super(ResponseCode.VALIDA_ERROR.getCode(), message);
+    }
+
+    public ValidationException(ResponseCode code) {
+        super(code);
+    }
+
+    public ValidationException(String code, String message) {
+        super(code, message);
+    }
+
+    public ValidationException(String code, String message, Throwable cause) {
+        super(code, message, cause);
+    }
+
+    public ValidationException(ResponseCode code, Throwable cause) {
+        super(code, cause);
     }
 }

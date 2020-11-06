@@ -2,6 +2,7 @@ package org.thorn.code.common.identity;
 
 import junit.framework.TestCase;
 import org.junit.Assert;
+import org.thorn.code.common.card.IdNumber;
 
 /**
  * TODO.
